@@ -18,10 +18,6 @@ background-color: #ff9d55;
 text-shadow: 0rem 0rem .3rem #ff5e00;
 }
 
-.poke:hover .fire {
-    box-shadow: 5px 4px #ff9c556c;
-}
-
 .electric {
 background-color: #f4d23c;
 text-shadow: 0rem 0rem .3rem #b6b61a;
