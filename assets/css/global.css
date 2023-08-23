@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/background-jungle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -6rem;
+    background-attachment:fixed;
+    background-blend-mode:multiply;
+}
+
+.content {
+    padding: 1rem;
+    background-color: rgba(18, 129, 28, 0.329);
+    height: auto;
+    filter: saturate(110%);
+
+}
+
+
+.title {
+    width: 62rem;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: rgba(18, 129, 28, 0.329);
+    border-radius: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.title img {
+    width: 17%;
+    opacity: .8;
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
+
