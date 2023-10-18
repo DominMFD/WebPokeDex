@@ -8,7 +8,6 @@ body{
     background-image: url('../images/background-jungle.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -6rem;
     background-attachment:fixed;
     background-blend-mode:multiply;
 }
