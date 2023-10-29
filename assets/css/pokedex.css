@@ -8,10 +8,6 @@
     grid-template-columns: 1fr;
 }
 
-.pokemons :hover{
-    filter: brightness(105%);
-}
-
 
 
 .poke {
@@ -25,14 +21,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
-    box-shadow: 5px 4px rgba(0, 0, 0, .3);
+    filter: drop-shadow(5px 4px rgba(0, 0, 0, .3));
 }
-
-.poke :hover {
-    filter: brightness(100%);
-}
-
-
 
 
 .poke .detail {
@@ -40,6 +30,7 @@
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
+    filter: brightness(90%)
 }
 
 .poke .detail img {
@@ -48,6 +39,11 @@
     align-self: flex-end;
     
 }
+
+.poke:hover img {
+    filter: brightness(110%);
+}
+
 
 
 .poke .name {
