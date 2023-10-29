@@ -119,14 +119,6 @@
     font-size:smaller
 }
 
-.poke:hover .stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 1;
-    filter: grayscale(.4);
-    align-items: center;
-}
 
 .height {
     text-shadow: 0 0 .3rem black;
