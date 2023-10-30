@@ -10,11 +10,6 @@ function convertPokemonToList(pokemon) {
     <span class="number">#${pokemon.number}</span>
     <span class="name">${pokemon.name}</span>
 
-    <ol class="stats">
-        <li class="type height">Altura: ${pokemon.height / 10}m</li>
-        <li class="type weight">Peso: ${pokemon.weight /10}kg</li>
-    </ol>
-
     <div class="detail">
         
         <ol class="types">
