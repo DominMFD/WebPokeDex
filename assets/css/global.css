@@ -38,6 +38,61 @@ body{
     opacity: .8;
 }
 
+.pesquisar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.pesquisar-content {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.pesquisar-content > input {
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: linear-gradient(rgb(221, 186, 186), rgb(206, 100, 100));
+    padding: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 0.623);
+    border-right: none;
+}
+
+.error {
+    margin-top: 5px;
+    font-size: .6rem;
+    margin: auto;
+    color: rgb(219, 41, 41);
+}
+
+.pesquisar-botao {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    background: linear-gradient(rgb(221, 186, 186), rgb(206, 100, 100));
+    filter: saturate(700%);
+    border-left: none;
+    transition: background-color .2s, filter .2s;
+}
+
+.pesquisar-botao:hover {
+    cursor: pointer;
+    background: rgba(148, 17, 17, 0.712);
+    filter: none;
+}
+
+.pesquisar-botao:active svg {
+    transform: scale(0.7);
+}
+
 
 @media screen and (min-width: 992px) {
     .content {

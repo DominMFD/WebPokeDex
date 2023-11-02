@@ -90,7 +90,7 @@
 
 }
 
-#load {
+load {
     width: 30%;
     height: 30px;
     margin: auto;
@@ -98,16 +98,19 @@
     font-weight: 900;
     color: #fff;
     border-radius: 30px;
-    background-image: linear-gradient(rgb(221, 186, 186), rgb(206, 100, 100), rgb(218, 37, 37));
+    background-image: linear-gradient(rgb(221, 186, 186), rgb(206, 100, 100));
     border: transparent;
     align-self: center;
     opacity: .8;
     cursor: pointer;
+    filter: saturate(700%);
+    transition: background-color .2s, filter .2s;
 }
 
 #load:hover {
-    filter: saturate(110%);
-    filter:brightness(120%)
+    cursor: pointer;
+    background: rgba(148, 17, 17, 0.712);
+    filter: none;
 }
 
 .stats {
